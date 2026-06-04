@@ -1,0 +1,29 @@
+{
+  "name": "repo-launch-kit",
+  "version": "1.0.0",
+  "description": "A zero-dependency CLI that audits and prepares repositories for open-source launch.",
+  "type": "module",
+  "bin": {
+    "repo-launch-kit": "./bin/repo-launch-kit.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/repo-launch-kit.js audit ."
+  },
+  "keywords": [
+    "open-source",
+    "github",
+    "cli",
+    "repository",
+    "audit",
+    "starter",
+    "scorecard",
+    "maintainers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
+
